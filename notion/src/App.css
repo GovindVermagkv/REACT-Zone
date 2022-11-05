@@ -1,0 +1,41 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+#container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+#container>details{
+  background-color: black;
+  width: fit-content;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+#container>details>summary{
+  list-style: none;
+  cursor: pointer;
+}
+#inputarea{
+  margin: 20% 0px;
+}
+#inputarea>input{
+  /* width: 30%; */
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+#inputarea>button{
+  background-color: blue;
+  padding: 5px 10px;
+  color: white;
+}
+#valuarea{
+  margin: 10px;
+}
